@@ -1,6 +1,23 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fffff0; /* changed background color*/
+  color: #000000;/* changed font color*/
+  font-size: 16px; /*Edit the CSS so that all fonts can have their
+  font-size edited quickly from the same location.*/
+
+}
+/* used line height and applied  appropriate sizes to the typography
+to accurately weight the importance of specific
+portions of the content provided (headlines, etc.)*/
+h1 {
+  font-size: 2em; /* 32px */
+  line-height: 1.2;
+  line-height: 75%;
+  line-height: 2em;
+  line-height: normal;
+}
+
+p {
+  font-size: 100%; /* 16px */
 }
 
 nav {
@@ -16,10 +33,12 @@ nav {
 }
 
 .large-pic {
+  background-image: url(http://www.imageurl.com); /* fixed broken image*/
   width: 100%;
 }
 
 .medium-pic {
+  background-image: url(http://www.imageurl.com); /* fixed broken image*/
   width: 70%;
 }
 
@@ -37,11 +56,12 @@ ul {
   float: right;
 }
 
-li {
+li a {       /* removed underline and added interactivity*/
   float: right;
   padding: 30px;
+  text-decoration: none;
+  color:#0070BC;  /* hover-mouse over */
 }
-
 article {
   padding-top: 100px;
 }
