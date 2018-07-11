@@ -1,23 +1,42 @@
 body {
   background-color: #fffff0; /* changed background color*/
   color: #000000;/* changed font color*/
-  font-size: 16px; /*Edit the CSS so that all fonts can have their
+  font-size: 18px; /*Edit the CSS so that all fonts can have their
   font-size edited quickly from the same location.*/
-
 }
 /* used line height and applied  appropriate sizes to the typography
 to accurately weight the importance of specific
 portions of the content provided (headlines, etc.)*/
 h1 {
-  font-size: 2em; /* 32px */
-  line-height: 1.2;
-  line-height: 75%;
+  font-size: 3em; /* altered font size for readability */
+  line-height: 1.2; /* altered lined height*/
+  line-height: 70%;
+  line-height: 3em;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 1.2em; /* altered font size for readability */
+  line-height: 1; /* altered lined height*/
+  line-height: 20%;
   line-height: 2em;
   line-height: normal;
 }
 
+.story-text {
+  font-size: .95em; /* altered font size for readability */
+  line-height: 3; /* altered lined height*/
+  line-height: 20%;
+  line-height: 2em;
+  line-height: normal;
+
+}
 p {
-  font-size: 100%; /* 16px */
+  font-size: 112.5%; /* Altered font size for readability*/
+  line-height: 3; /* altered lined height*/
+  line-height: 100%;
+  line-height: 1.3em;
+  line-height: normal;
 }
 
 nav {
@@ -25,6 +44,8 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+
+
 }
 
 .logo {
@@ -33,12 +54,10 @@ nav {
 }
 
 .large-pic {
-  background-image: url(http://www.imageurl.com); /* fixed broken image*/
   width: 100%;
 }
 
 .medium-pic {
-  background-image: url(http://www.imageurl.com); /* fixed broken image*/
   width: 70%;
 }
 
@@ -60,8 +79,10 @@ li a {       /* removed underline and added interactivity*/
   float: right;
   padding: 30px;
   text-decoration: none;
-  color:#0070BC;  /* hover-mouse over */
 }
+
+a:hover { color:#0070BC; } /* mouse over */
+
 article {
   padding-top: 100px;
 }
